@@ -9,6 +9,6 @@ Recent data from the Federal Trade Commission (FTC) show that consumers lost nea
 Access to Tableau Dashboard: [Tableau Dashboard Link](https://public.tableau.com/views/FraudulantTransactions/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## References
-*New FTC data show consumers reported losing nearly $8.8 billion to scams in 2022*. (2023, February 2023). Federal Trade Comission. Retrieved November 29, 2023, from https://www.ftc.gov/news-events/news/press-releases/2023/02/new-ftc-data-show-consumers-reported-losing-nearly-88-billion-scams-2022
+*New FTC data show consumers reported losing nearly $8.8 billion to scams in 2022*. (2023, February 2023). Federal Trade Commission. Retrieved November 29, 2023, from https://www.ftc.gov/news-events/news/press-releases/2023/02/new-ftc-data-show-consumers-reported-losing-nearly-88-billion-scams-2022
 
 Shenoy, Kartik. (n.d.). *Credit card transactions fraud detection dataset*. Kaggle. https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain
