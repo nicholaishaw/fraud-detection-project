@@ -11,8 +11,14 @@ The raw dataset from Kaggle contained a random sample of credit card purchases. 
 ## Data Cleaning
 
 ## Logistic Regression
+### Model Creation
+### Model Compiling
+### Model Performance
 
 ## Random Forest
+### Model Creation
+### Model Compiling
+### Model Performance
 
 ## Tableau
 Access to Tableau Dashboard: [Tableau Dashboard Link](https://public.tableau.com/views/FraudulantTransactions/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
