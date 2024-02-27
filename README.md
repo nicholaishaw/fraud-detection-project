@@ -8,6 +8,12 @@ Recent data from the Federal Trade Commission (FTC) showed that consumers lost n
 ## Data Exploration
 The raw dataset from Kaggle contained a random sample of credit card purchases. Various features of each credit card purchase were included in the dataset. The features were as follows: credit card number, transaction id, gender of card holder, first and last name of card holder, merchant name, transaction category, amount of transaction, geographic information (latitude, longitude, street name, zip code, city, state), date of birth, and time and date of transaction. Using these data, we created two models—a logistic regression and random forest—to predict instances of fraud.
 
+## Data Cleaning
+
+## Logistic Regression
+
+## Random Forest
+
 ## Tableau
 Access to Tableau Dashboard: [Tableau Dashboard Link](https://public.tableau.com/views/FraudulantTransactions/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
