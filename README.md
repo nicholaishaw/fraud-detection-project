@@ -27,7 +27,7 @@ After the transaction date and time were separated, we converted date of birth i
 
 **Figure 3.** *Conversion of date of birth into age.*
 
-Lastly, the columns were reordered and then dropped the columns that were not features of the prediction and ensure the data are analyzed correctly by the model.
+Lastly, the columns were reordered, and then we dropped the columns that were not features of the model.
 
 ![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/3a69009b-02b4-4295-af80-c6ae3b7f09de)
 
@@ -42,7 +42,31 @@ A SQLite database was used to house the clean data. SQLAlchemy was used to conne
 
 ## Logistic Regression
 ### Model Creation
+We imported the data from the SQLite database to a pandas dataframe using SQLAlchemy. We dropped the transaction id since it is not a feature of the regression. Lastly, we used the pd.get_dummies function to transform the categorical data in the dataframe to numeric.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/1bcf5f48-e111-4e15-bb6d-c27917ec8531)
+
+**Figure 6.** *The use of pd.get_dummies to transform the categorical data into numeric.*
+
+Next, we separated the features and the labels. the labels were noted as 'y,' and the features were notated as 'x.'
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/4df850ec-bbff-4b1b-adc4-2e6839b4f0c9)
+
+**Figure 7.** *Separating the features and labels in the regression.*
+
+Lastly, we split the data into training and testing sets. We reserved 20% of the data to the testing set.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/cb02a99d-8b9e-4e31-9f3d-3b1cfc1219e4)
+
+**Figure 8.** *Splitting into training and testing sets.*
+
 ### Model Compiling
+The linear regression model was complied using the sklearn library.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/6ff2b0be-e51c-4c37-ab4f-710cbf5af44f)
+
+**Figure 9.** *Model compiling using the sklearn library.*
+
 ### Model Performance
 
 ## Random Forest
