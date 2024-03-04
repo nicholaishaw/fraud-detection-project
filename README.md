@@ -54,7 +54,7 @@ Next, we separated the features and the labels. the labels were noted as 'y,' an
 
 **Figure 7.** *Separating the features and labels in the regression.*
 
-Lastly, we split the data into training and testing sets. We reserved 20% of the data to the testing set.
+Lastly, we split the data into training and testing sets and scaled the data for precision. We reserved 20% of the data to the testing set.
 
 ![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/cb02a99d-8b9e-4e31-9f3d-3b1cfc1219e4)
 
