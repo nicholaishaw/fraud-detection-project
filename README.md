@@ -9,8 +9,29 @@ Recent data from the Federal Trade Commission (FTC) showed that consumers lost n
 The raw dataset from Kaggle contained a random sample of 111,144 credit card purchases. Various features of each credit card purchase were included in the dataset: credit card number, transaction id, gender of card holder, first and last name of card holder, merchant name, transaction category, amount of transaction, geographic information (latitude, longitude, street name, zip code, city, state), date of birth, and time and date of transaction. Using these data, we created two models—a logistic regression and random forest—to predict instances of fraud.
 
 ## Data Cleaning
-Before creating the models, we had to clean the data so it can be read. We had to drop the columns that were not features of the prediction and ensure the data are analyzed correctly by the model.
+Before creating the models, we had to clean the data so it can be read. First, we exported the data from a csv file to a pandas dataframe. 
 
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/f7791125-8fc0-4ab8-af9e-53919e589bae)
+
+**Figure 1.** *Snapshot of the raw dataset.*
+
+Next, we renamed the 'Unamed: 0' to 'transaction_id' and 'amt' to 'amount.' After the columns were renamed, we separated the transaction date and time in the column 'trans_date_trans_time' to two separate columns: transaction date and transaction time.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/205a9968-a610-4c0a-af71-f78ca6d00ad4)
+
+**Figure 2.** *Transaction date and time separated.*
+
+After the transaction date and time were separated, we converted date of birth into age using the datetime library.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/d88245b9-aeb3-4c3f-aa16-c93e8d623390)
+
+**Figure 3.** *Conversion of date of birth into age.*
+
+Lastly, the columns were reordered and then dropped the columns that were not features of the prediction and ensure the data are analyzed correctly by the model.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/b9708a12-c450-4665-b80a-1f9cb179b7bd)
+
+**Figure 4.** *Columns that were not features of the model were dropped to ensure accuracy of the prediction.*
 
 ## Logistic Regression
 ### Model Creation
