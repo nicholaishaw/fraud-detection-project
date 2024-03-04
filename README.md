@@ -33,6 +33,13 @@ Lastly, the columns were reordered and then dropped the columns that were not fe
 
 **Figure 4.** *Columns that were not features of the model were dropped to ensure accuracy of the prediction.*
 
+## SQLite Database
+A SQLite database was used to house the clean data. SQLAlchemy was used to connect the clean pandas dataframe to the database. Transaction ID was used as the primary key in the SQLite database.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/a796f3c0-f6e0-4d99-b0cf-afba9ea70c6e)
+
+**Figure 5.** *SQLite connection between the pandas dataframe and the database.*
+
 ## Logistic Regression
 ### Model Creation
 ### Model Compiling
