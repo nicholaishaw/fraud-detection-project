@@ -29,7 +29,7 @@ After the transaction date and time were separated, we converted date of birth i
 
 Lastly, the columns were reordered and then dropped the columns that were not features of the prediction and ensure the data are analyzed correctly by the model.
 
-![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/b9708a12-c450-4665-b80a-1f9cb179b7bd)
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/3a69009b-02b4-4295-af80-c6ae3b7f09de)
 
 **Figure 4.** *Columns that were not features of the model were dropped to ensure accuracy of the prediction.*
 
