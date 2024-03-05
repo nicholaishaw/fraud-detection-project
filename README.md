@@ -94,7 +94,7 @@ The balanced accuracy score was much higher in the random forest model (79.3%) t
 </br>The precision for fraudulent purchases and non-fraudulent purchases in the random forest (100% and 95% respectively) was significantly higher than the precision for fraudulent purchases and non-fraudulent purchases in the logistic regression model (100% and 67% respectively). The recall scores for the fraudulent and non-fraudulent purchases in the random forest model (100% and 59% respectively) was significantly higher than the recall scores for the fraudulent and non-fraudulent purchases in the logistic regression model (100% and 6% respectively).
 
 ## Tableau
-After the models were created, we 
+To provide further insight into the occurrence and prevalent categories of fraudulent cases, we utilized our clean dataset of 111,144 credit card transactions. We imported the data to Tableau and crafted a series of visuals and interactive dashboards to delve deeper into the complexities surrounding fraud detection.
 Access to Tableau Dashboard: [Tableau Dashboard Link](https://public.tableau.com/views/FraudulantTransactions/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## References
