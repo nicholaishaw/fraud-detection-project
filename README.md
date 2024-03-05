@@ -69,17 +69,25 @@ The linear regression model was complied using the sklearn library.
 
 ### Model Performance
 The balanced_accuracy_score function revealed a balanced accuracy score of 53.1%. This means that the model performs slightly better than random chance to predict fraudulent and non-fraudulent cases.<br>
-</br>The confusion matrix showed a high amount of correctly predicted non-fraudulent cases (22164) and low amount of incorrectly predicted fraudulent cases (2). The model also showed very few true fraudulent cases (4) and a high amount of false negatives (59). The confusion matrix highlights a significant imbalance in the groups.<br>
+</br>The confusion matrix showed a high amount of correctly predicted non-fraudulent cases (22164) and low amount of incorrectly predicted fraudulent cases (2). The model also showed very few true fraudulent cases (4) and a high amount of false negatives (59). The confusion matrix highlights a significant imbalance in the groups—with a much larger proportion of non-fraudulent cases compared to fraudulent cases. This poses challenges for the model's ability to accurately predict fraud.<br>
 </br>TThe precision was high for both valid purchases and moderately low for fraudulent (100% vs. 67%). This means that the model was 100% correct when predicting the non-fraudulent purchases but only 67% accurate when predicting the fraudulent cases. Recall was high for valid purchases and very low for fraudulent (100% vs. 6%). This means that the model successfully identified all non-fraudulent purchases 100% of the time. However, the model only detected 6% of the actual fraudulent cases.
 
 ![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/dc5e66cc-ccfa-40a0-bf5b-8d233ef215d9)
 
-**Figure 10.** *Model performance metrics: balanced accuracy score, confusion matrix, and classification report.*
+**Figure 10.** *Logistic regression performance metrics: balanced accuracy score, confusion matrix, and classification report.*
 
 ## Random Forest
-### Model Creation
-### Model Compiling
+### Model Creation and Model Compiling
+Similar to the logistic regression model, data were imported to a pandas dataframe fromt he SQLite database using SQLAlchemy. The transaction ID column was dropped since it is not a feature of the analysis. We used pd.get_dummies to transform the categorical data to numeric.<br>
+</br>We then separated the features and labels and split the data into training and testing sets. We allocated 20% of the data to the testing set.
 ### Model Performance
+The balanced_accuracy_score function revealed a balanced accuracy score of 79.3%—significantly higher than the logistic regression. This means that the model performs moderately better than random chance to predict fraudulent and non-fraudulent cases.<br>
+</br>The confusion matrix showed a high amount of correctly predicted non-fraudulent cases (22164) and low amount of incorrectly predicted fraudulent cases (2). The model also showed few true fraudulent cases (37) and a low amount of false negatives (26). The confusion matrix highlights a significant imbalance in the groups—with a much larger proportion of non-fraudulent cases compared to fraudulent cases. This poses challenges for the model's ability to accurately predict fraud.<br>
+</br>TThe precision was very high for both valid purchases and for fraudulent (100% vs. 95%). This means that the model was 100% correct when predicting the non-fraudulent purchases and 95% accurate when predicting the fraudulent cases. Recall was high for valid purchases and low for fraudulent (100% vs. 59%). This means that the model successfully identified all non-fraudulent purchases 100% of the time. However, the model only detected 6% of the actual fraudulent cases.
+
+![image](https://github.com/nicholaishaw/fraud-detection-project/assets/135463220/75509d25-cd72-42ae-95ba-6cd21ca405e1)
+
+**Figure 11.** *Random Forest performance metrics: balanced accuracy score, confusion matrix, and classification report.*
 
 ## Tableau
 After the models were created, we 
