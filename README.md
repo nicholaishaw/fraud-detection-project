@@ -94,8 +94,8 @@ The balanced accuracy score was much higher in the random forest model (79.3%) t
 </br>The precision for fraudulent purchases and non-fraudulent purchases in the random forest (100% and 95% respectively) was significantly higher than the precision for fraudulent purchases and non-fraudulent purchases in the logistic regression model (100% and 67% respectively). The recall scores for the fraudulent and non-fraudulent purchases in the random forest model (100% and 59% respectively) was significantly higher than the recall scores for the fraudulent and non-fraudulent purchases in the logistic regression model (100% and 6% respectively).
 
 ## Tableau
-To provide further insight into the occurrence and prevalent categories of fraudulent cases, we utilized our clean dataset of 111,144 credit card transactions. We imported the data to Tableau and crafted a series of visuals and interactive dashboards to delve deeper into the complexities surrounding fraud detection.
-Access to Tableau Dashboard: [Tableau Dashboard Link](https://public.tableau.com/app/profile/nicholai.shaw/viz/FraudulentTransactions_17096911116960/Story)
+To provide further insight into the occurrence and prevalent categories of fraudulent cases, we utilized our clean dataset of 111,144 credit card transactions. We imported the data to Tableau and crafted a series of visuals and interactive dashboards to delve deeper into the complexities surrounding fraud detection.<br>
+</br>Access to Tableau Dashboard: [Tableau Dashboard Link](https://public.tableau.com/app/profile/nicholai.shaw/viz/FraudulentTransactions_17096911116960/Story)
 
 ## References
 *New FTC data show consumers reported losing nearly $8.8 billion to scams in 2022*. (2023, February 2023). Federal Trade Commission. Retrieved November 29, 2023, from https://www.ftc.gov/news-events/news/press-releases/2023/02/new-ftc-data-show-consumers-reported-losing-nearly-88-billion-scams-2022
