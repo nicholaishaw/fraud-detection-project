@@ -1,4 +1,4 @@
-# Using Artificial Intelligence to Detect Fraudulent Transactions
+# Using Machine Learning to Detect Fraudulent Transactions
 ## Group Members
 Nicholai Shaw, Jessica Morris, Zachary Kroell, Chris Moeglin, and Timothy Coleman
 
